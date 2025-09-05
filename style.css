@@ -7,3 +7,6 @@
 
 /* Importando o estilo da section superinfo */
 @import url(./styles/superinfo.css);
+
+/* Importando o estilo da section menu */
+@import url(./styles/menu.css);
