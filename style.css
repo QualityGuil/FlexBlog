@@ -4,3 +4,6 @@
 
 /* Importando os resets */
 @import url(./styles/reset.css);
+
+/* Importando o estilo da section superinfo */
+@import url(./styles/superinfo.css);
