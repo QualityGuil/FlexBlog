@@ -10,3 +10,6 @@
 
 /* Importando o estilo da section menu */
 @import url(./styles/menu.css);
+
+/* Importando o estilo da section sobre */
+@import url(./styles/sobre.css);
