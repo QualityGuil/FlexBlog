@@ -13,3 +13,6 @@
 
 /* Importando o estilo da section sobre */
 @import url(./styles/sobre.css);
+
+/* Importando o estilo da section produtos */
+@import url(./styles/produtos.css);
