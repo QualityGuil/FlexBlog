@@ -1,0 +1,9 @@
+.qualidade {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.qualidade-item {
+    float: left;
+    width: 33.33%;
+}
