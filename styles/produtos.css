@@ -22,7 +22,7 @@
 .produtos-item h2 {
 	font-size: 3em;
 	color: var(--h2-gray);
-	background: var(--produto-background-white);
+	background: var(--light-gray);
 	padding: 60px 20px;
 }
 
