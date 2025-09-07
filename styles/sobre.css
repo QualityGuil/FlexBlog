@@ -8,8 +8,8 @@
 }
 
 .sobre {
-    border-top: 2px solid #2c70ff;
-    border-bottom: 2px solid #2c70ff;
+    border-top: 2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
@@ -31,7 +31,7 @@
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
-    color: #7c7c7c;
+    color: var(--paragraph-gray);
 }
 
 .sobre-img {

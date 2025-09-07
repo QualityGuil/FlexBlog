@@ -1,6 +1,6 @@
 .superinfo-bg {
-    background: #122ab2;
-    color: white;
+    background: var(--dark-blue);
+    color: var(--white);
 }
 
 .superinfo {
@@ -18,5 +18,5 @@
 }
 
 .superinfo a {
-    color: white;
+    color: var(--white);
 }
