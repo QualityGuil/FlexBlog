@@ -1,9 +1,56 @@
 .qualidade {
     max-width: 960px;
     margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.qualidade-item {
+/* Como seria feito do jeito antigo */
+/* .qualidade-item {
     float: left;
-    width: 33.33%;
+    width: 33.333%;
+    border: 1px solid red;
+    height: 150px;
+} */
+
+.qualidade-item {
+    flex: 1 1 300px;
+    /* Pode ser que dê bug em determinados navegadores */
+    /* flex: 1 1 calc(33.333% - 20px); */
+    margin: 20px 10px;
+}
+
+.qualidade-item h2 {
+    font-size: 2.25em;
+    color: var(--h2-gray);
+    margin-bottom: 20px;
+}
+
+/* Pseudo element que vem ao lado do h2 da section de qualidade */
+.qualidade-item h2::before {
+    /* O que ficar dentro do content aparecera antes do h2, pois neste caso é o before. Caso fosse after iria aparecer depois */
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* 3n + 1 seleciona a primeira do tipo em questão e depois a terceira depois da que selecionamos */
+.qualidade-item:nth-of-type(3n+1) h2::before {
+    background-color: var(--purple-produto);
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before {
+    background-color: var(--pink-produto);
+}
+
+.qualidade-item:nth-of-type(3n+3) h2::before {
+    background-color: var(--blue-produto);
+}
+
+.qualidade-item p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: var(--paragraph-gray);
 }
