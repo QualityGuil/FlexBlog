@@ -21,19 +21,19 @@
 
 .produtos-item h2 {
 	font-size: 3em;
-	color: #a4a4a4;
-	background: #f7f7f7;
+	color: var(--h2-gray);
+	background: var(--produto-background-white);
 	padding: 60px 20px;
 }
 
 .purple {
-	border-top: 8px solid #ae81ff;
+	border-top: 8px solid var(--purple-produto);
 }
 
 .pink {
-	border-top: 8px solid #f9265e;
+	border-top: 8px solid var(--pink-produto);
 }
 
 .blue {
-	border-top: 8px solid #66d9eb;
+	border-top: 8px solid var(--blue-produto);
 }
