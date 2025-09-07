@@ -23,14 +23,19 @@
 /* Importando o estilo da section de qualidade */
 @import url(./styles/qualidade.css);
 
+/* Importando o estilo do footer */
+@import url(./styles/footer.css);
+
 :root {
 
+    --default-font: "Nunito", Helvetica, Arial, sans-serif;
+
     --white: white;
+    --light-gray: #f7f7f7;
     --blue: #2c70ff;
     --dark-blue: #122ab2;
     --paragraph-gray: #7c7c7c;
     --h2-gray: #a4a4a4;
-    --produto-background-white: #f7f7f7;
     --purple-produto: #ae81ff;
     --pink-produto: #f9265e;
     --blue-produto: #66d9eb;
