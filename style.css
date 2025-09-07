@@ -16,3 +16,6 @@
 
 /* Importando o estilo da section produtos */
 @import url(./styles/produtos.css);
+
+/* Importando o estilo da section preco */
+@import url(./styles/preco.css);
